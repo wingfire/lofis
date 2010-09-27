@@ -3,7 +3,7 @@
 # Christof Spies
 # christof.spies@seips.net
 # (c) 2010
-# http://creativecommons.org/licenses/by/2.0/
+# http://creativecommons.org/licenses/by/3.0/
 # Version 0.0.7
 umlaut:
   a:
@@ -195,7 +195,16 @@ umlaut:
     - З
   :
     - '"'
-# - ( ) . / ' & ! , [ _ ] ` – ´ :
+    - ¿
+    - ¡
+
+# not replaced
+# - ( ) . / ' & ! , [ _ ] ` – ´ : « » €
+
+# spanish
+# á é í ñ ó ú ü
+# Á É Í Ñ Ó Ú Ü
+# ¿ ¡
 
 # russian
 # [a-wyz]
