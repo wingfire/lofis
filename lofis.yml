@@ -4,7 +4,7 @@
 # christof.spies@seips.net
 # (c) 2010
 # http://creativecommons.org/licenses/by/3.0/
-# Version 0.0.9
+# Version 0.0.10
 umlaut:
   a:
     - á
@@ -199,13 +199,21 @@ umlaut:
     - '"'
     - ¿
     - ¡
+    - „
+    - “
+    - ”
 
 # not replaced
-# - ( ) . / ' & ! , [ _ ] ` – ´ : « » €
+# - ( ) . / ' & ! , [ _ ] ` – ´ : « » € °
 
 # frensh
 # à â æ ç é è ê ë î ï ô œ ù û ü
 # À Â Æ Ç É È Ê Ë Î Ï Ô Œ Ù Û Ü
+
+# german
+# Ä É Ö Ü
+# ä é ö ü ß
+# „ “ ” °
 
 # russian
 # [a-wyz]
