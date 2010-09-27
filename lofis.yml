@@ -4,7 +4,7 @@
 # christof.spies@seips.net
 # (c) 2010
 # http://creativecommons.org/licenses/by/3.0/
-# Version 0.0.7
+# Version 0.0.9
 umlaut:
   a:
     - á
@@ -66,6 +66,7 @@ umlaut:
     - ø
     - ö
     - о
+    - œ
   p:
     - п
   q:
@@ -162,6 +163,7 @@ umlaut:
     - Ø
     - Ö
     - О
+    - Œ
   P:
     - П
   Q:
@@ -201,13 +203,18 @@ umlaut:
 # not replaced
 # - ( ) . / ' & ! , [ _ ] ` – ´ : « » €
 
-# spanish
-# á é í ñ ó ú ü
-# Á É Í Ñ Ó Ú Ü
-# ¿ ¡
+# frensh
+# à â æ ç é è ê ë î ï ô œ ù û ü
+# À Â Æ Ç É È Ê Ë Î Ï Ô Œ Ù Û Ü
 
 # russian
 # [a-wyz]
 # а б ц д е ф г х и й к л м н о п я р с т у в щ   ы з
 # [A-WYZ]
 # А Б Ц Д Е Ф Г Х И Й К Л М Н О П Я Р С Т У В Щ   Ы З
+
+# spanish
+# á é í ñ ó ú ü
+# Á É Í Ñ Ó Ú Ü
+# ¿ ¡
+
