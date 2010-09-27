@@ -4,10 +4,18 @@ Lofis is a small helper to fix lexicographical order for international sorting.
 
 Syntax
 ------
-
+`
+umlaut:
+  replacement_string:
+    - string_to_replace
+`
 
 Example
 -------
+
+Bugs
+----
+Report bugs at http://github.com/wingfire/lofis/issues
 
 
 License
