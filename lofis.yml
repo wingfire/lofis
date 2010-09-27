@@ -1,9 +1,10 @@
+# Lofis
 # Fix lexicographical order for international sorting
-# Christof E. Spies
+# Christof Spies
 # christof.spies@seips.net
 # (c) 2010
 # http://creativecommons.org/licenses/by/2.0/
-# Version 0.0.5
+# Version 0.0.6
 umlaut:
   a:
     - á
