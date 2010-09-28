@@ -4,7 +4,7 @@
 # christof.spies@seips.net
 # (c) 2010
 # http://creativecommons.org/licenses/by/3.0/
-# Version 0.0.11
+# Version 0.0.12
 umlaut:
   a:
     - á
@@ -98,6 +98,7 @@ umlaut:
     - ý
     - ÿ
     - ы
+    - ʻ
   z:
     - ž
     - з
@@ -129,6 +130,7 @@ umlaut:
     - Ě
     - Ë
     - Е
+    - Ē
   F:
    - Ф
   G:
@@ -140,6 +142,7 @@ umlaut:
     - Ì
     - Î
     - Ï
+    - Ī
     - И
   J:
     - Й
@@ -162,6 +165,7 @@ umlaut:
     - Õ
     - Ø
     - Ö
+    - Ō
     - О
     - Œ
   P:
@@ -184,6 +188,7 @@ umlaut:
     - Û
     - Ů
     - Ü
+    - Ū
     - У
   V:
     - В
@@ -214,6 +219,12 @@ umlaut:
 # Ä É Ö Ü
 # ä é ö ü ß
 # „ “ ” °
+
+# hawaiian
+# Ä Ē Ī Ō Ū
+# ä ē ī ō ū
+# ʻ
+
 
 # russian
 # [a-wyz]
