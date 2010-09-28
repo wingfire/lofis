@@ -4,12 +4,13 @@
 # christof.spies@seips.net
 # (c) 2010
 # http://creativecommons.org/licenses/by/3.0/
-# Version 0.0.13
+# Version 0.1.0
 umlaut:
   a:
     - á
     - à
     - â
+    - ă
     - ã
     - å
     - æ
@@ -83,11 +84,15 @@ umlaut:
     - š
     - с
     - ś
+    - ș
+    - ş
   ss:
     - ß
   t:
     - ť
     - т
+    - ț
+    - ţ
   u:
     - ú
     - ù
@@ -113,6 +118,7 @@ umlaut:
     - Á
     - À
     - Â
+    - Ă
     - Ã
     - Å
     - Æ
@@ -192,9 +198,13 @@ umlaut:
     - Š
     - С
     - Ś
+    - Ș
+    - Ş
   T:
     - Ť
     - Т
+    - Ț
+    - Ţ
   U:
     - Ú
     - Ù
@@ -243,6 +253,10 @@ umlaut:
 # polish
 # Ą Ę Ó Ć Ł Ń Ś Ź Ż
 # ą ę ó ć ł ń ś ź ż
+
+# romanian
+# Ă Â Î Ș Ş Ț Ţ
+# ă â î ș ş ț ţ 
 
 # russian
 # [a-wyz]
