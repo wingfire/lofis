@@ -1,0 +1,30 @@
+# lofis
+# hawaiian
+# http://webdesign.about.com/od/localization/l/blhtmlcodes-hi.htm
+
+# Ä Ē Ī Ō Ū
+# ä ē ī ō ū ʻ
+
+umlaut:
+  A:
+    - Ä
+  E:
+    - Ē
+  I:
+    - Ī
+  O:
+    - Ō
+  U:
+    - Ū
+  a:
+    - ä
+  e:
+    - ē
+  i:
+    - ī
+  o:
+    - ō
+  u:
+    - ū
+  y:
+    - ʻ

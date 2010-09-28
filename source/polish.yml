@@ -1,0 +1,42 @@
+# lofis
+# polish
+# http://webdesign.about.com/od/localization/l/blhtmlcodes-pl.htm
+
+# Ą Ę Ó Ć Ł Ń Ś Ź Ż
+# ą ę ó ć ł ń ś ź ż
+
+umlaut:
+  A:
+    - Ą
+  C:
+    - Ć
+  E:
+    - Ę
+  L:
+    - Ł
+  N:
+    - Ń
+  O:
+    - Ó
+  S:
+    - Ś
+  Z:
+    - Ź
+    - Ż
+  a:
+    - ą
+  c:
+    - ć
+  e:
+    - ę
+  l:
+    - ł
+  n:
+    - ń
+  o:
+    - ó
+  s:
+    - ś
+  z:
+    - ź
+    - ż

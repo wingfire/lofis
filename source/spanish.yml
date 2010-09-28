@@ -1,0 +1,41 @@
+# lofis
+# spanish
+# http://webdesign.about.com/od/localization/l/blhtmlcodes-sp.htm
+
+# Á É Í Ñ Ó Ú Ü
+# á é í ñ ó ú ü
+# « » ¿ ¡
+
+umlaut:
+  A:
+    - Á
+  E:
+    - É
+  I:
+    - Í
+  N:
+    - Ñ
+  O:
+    - Ó
+  U:
+    - Ú
+    - Ü
+  a:
+    - á
+  e:
+    - é
+  i:
+    - í
+  n:
+    - ñ
+  o:
+    - ó
+  u:
+    - ú
+    - ü
+  :
+   - «
+   - »
+   - ¿
+   - ¡
+

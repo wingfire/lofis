@@ -1,0 +1,74 @@
+# lofis
+# czech, slovak and slovenian
+# http://webdesign.about.com/od/localization/l/blhtmlcodes-cz.htm
+
+# Á Ą Ä É Ę Ě Í Ó Ô Ú Ů Ý Č Ĺ Ň Ŕ Ř Š Ž
+# á ą ä é ę ě í ó ô ú ů ý č ď ť ĺ ň ŕ ř š ž
+
+umlaut:
+  A:
+    - Á
+    - Ą
+    - Ä
+  C:
+    - Č
+  E:
+    - É
+    - Ę
+    - Ě
+  I:
+    - Í
+  L:
+    - Ĺ
+  N:
+    - Ň
+  O:
+    - Ó
+    - Ô
+  R:
+    - Ŕ
+    - Ř
+  S:
+    - Š
+  U:
+    - Ú
+    - Ů
+  Y:
+    - Ý
+  Z:
+    - Ž
+  a:
+    - á
+    - ą
+    - ä
+  c:
+    - č
+  d:
+    - ď 
+  e:
+    - é
+    - ę
+    - ě
+  i:
+    - í
+  l:
+    - ĺ
+  n:
+    - ň
+  o:
+    - ó
+    - ô
+  r:
+    - ŕ
+    - ř
+  s:
+    - š
+  t:
+    - ť
+  u:
+    - ú
+    - ů
+  y:
+    - ý
+  z:
+    - ž

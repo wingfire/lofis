@@ -1,0 +1,30 @@
+# lofis
+# romanian
+# http://webdesign.about.com/od/localization/l/blhtmlcodes-ro.htm
+
+# Ă Â Î Ș Ş Ț Ţ
+# ă â î ș ş ț ţ
+
+umlaut:
+  A:
+    - Ă
+    - Â
+  I:
+    - Î
+  S:
+    - Ș
+    - Ş
+  T:
+    - Ț
+    - Ţ
+  a:
+    - ă
+    - â
+  i:
+    - î
+  s:
+    - ș
+    - ş
+  t:
+    - ț
+    - ţ

@@ -1,0 +1,42 @@
+# lofis
+# italian
+# http://webdesign.about.com/od/localization/l/blhtmlcodes-it.htm
+
+# À Á È É Ì Í Ò Ó Ù Ú
+# à á è é ì í ò ó ù ú
+# « »
+
+umlaut:
+  A:
+    - À
+    - Á 
+  E:
+    - È
+    - É 
+  I:
+    - Ì
+    - Í 
+  O:
+    - Ò
+    - Ó 
+  U:
+    - Ù
+    - Ú
+  a:
+    - à
+    - á 
+  e:
+    - è
+    - é 
+  i:
+    - ì
+    - í 
+  o:
+    - ò
+    - ó 
+  u:
+    - ù
+    - ú
+  :
+    - «
+    - »

@@ -1,0 +1,36 @@
+# lofis
+# turkish
+# http://webdesign.about.com/od/localization/l/blhtmlcodes-tr.htm
+
+# İ Ö Ü Ç Ğ Ş
+# ı ö ü ç ğ ş
+
+umlaut:
+  C:
+    - Ç
+  G:
+    - Ğ
+  I:
+    - İ
+  N:
+    - Ñ
+  O:
+    - Ö
+  S:
+    - Ş
+  U:
+    - Ü
+  c:
+    - ç
+  g:
+    - ğ
+  i:
+    - ı
+  n:
+    - ñ
+  o:
+    - ö
+  s:
+    - ş
+  u:
+    - ü

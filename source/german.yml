@@ -1,0 +1,34 @@
+# lofis
+# german
+# http://webdesign.about.com/od/localization/l/blhtmlcodes-de.htm
+
+# Ä É Ö Ü
+# ä é ö ü ß
+# « » „ “ ”
+# °
+
+umlaut:
+  A:
+    - Ä
+  E:
+    - É
+  O:
+    - Ö
+  U:
+    - Ü
+  a:
+    - ä
+  e:
+    - é
+  o:
+    - ö
+  ss:
+    - ß
+  u:
+    - ü
+  :
+   - «
+   - »
+   - „
+   - “
+   - ”
