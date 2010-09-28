@@ -4,7 +4,7 @@
 # christof.spies@seips.net
 # (c) 2010
 # http://creativecommons.org/licenses/by/3.0/
-# Version 0.0.10
+# Version 0.0.11
 umlaut:
   a:
     - á
@@ -37,7 +37,7 @@ umlaut:
   g:
     - г
   h:
-  - х
+    - х
   i:
     - í
     - ì
