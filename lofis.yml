@@ -4,7 +4,7 @@
 # christof.spies@seips.net
 # (c) 2010
 # http://creativecommons.org/licenses/by/3.0/
-# Version 0.1.0
+# Version 0.1.1
 umlaut:
   a:
     - á
@@ -40,9 +40,11 @@ umlaut:
     - ф
   g:
     - г
+    - ğ
   h:
     - х
   i:
+    - ı
     - í
     - ì
     - î
@@ -151,12 +153,14 @@ umlaut:
    - Ф
   G:
     - Г
+    - Ğ
   H:
     - Х
   I:
     - Í
     - Ì
     - Î
+    - İ
     - Ï
     - Ī
     - И
@@ -269,3 +273,6 @@ umlaut:
 # Á É Í Ñ Ó Ú Ü
 # ¿ ¡
 
+# turkish
+# İ Ö Ü Ç Ğ Ş
+# ı ö ü ç ğ ş
