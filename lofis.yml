@@ -1,278 +1,166 @@
-# Lofis
-# Fix lexicographical order for international sorting
-# Christof Spies
-# christof.spies@seips.net
-# (c) 2010
-# http://creativecommons.org/licenses/by/3.0/
-# Version 0.1.1
-umlaut:
-  a:
-    - á
-    - à
-    - â
-    - ă
-    - ã
-    - å
-    - æ
-    - ä
-    - а
-    - ą
-  b:
-    - þ
-    - б
-  c:
-    - č
-    - ç
-    - ц
-    - ć
-  d:
-    - ď
-    - д
-  e:
-    - é
-    - è
-    - ê
-    - ë
-    - е
-    - ę
-  f:
-    - ƒ
-    - ф
-  g:
-    - г
-    - ğ
-  h:
-    - х
-  i:
-    - ı
-    - í
-    - ì
-    - î
-    - ï
-    - и
-  j:
-    - й
-  k:
-    - к
-  l:
-    - л
-    - ł
-  m:
-    - м
-  n:
-    - ň
-    - ñ
-    - н
-    - ń
-  o:
-    - ó
-    - ò
-    - ô
-    - õ
-    - ð
-    - ø
-    - ö
-    - о
-    - œ
-  p:
-    - п
-  q:
-    - я
-  r:
-    - ŕ
-    - ř
-    - р
-  s:
-    - š
-    - с
-    - ś
-    - ș
-    - ş
-  ss:
-    - ß
-  t:
-    - ť
-    - т
-    - ț
-    - ţ
-  u:
-    - ú
-    - ù
-    - û
-    - ů
-    - ü
-    - у
-  v:
-    - в
-  w:
-    - щ
-  y:
-    - ý
-    - ÿ
-    - ы
-    - ʻ
-  z:
-    - ž
-    - з
-    - ź
-    - ż
-  A:
-    - Á
-    - À
-    - Â
-    - Ă
-    - Ã
-    - Å
-    - Æ
-    - Ä
-    - А
-    - Ą
-  B:
-    - Þ
-    - Б
-  C:
-    - Č
-    - Ç
-    - Ц
-    - Ć
-  D:
-    - Ď
-    - Д
-  Dj:
-    - Ð
-  E:
-    - É
-    - È
-    - Ê
-    - Ě
-    - Ë
-    - Е
-    - Ē
-    - Ę
-  F:
-   - Ф
-  G:
-    - Г
-    - Ğ
-  H:
-    - Х
-  I:
-    - Í
-    - Ì
-    - Î
-    - İ
-    - Ï
-    - Ī
-    - И
-  J:
-    - Й
-  K:
-    - К
-  L:
-    - Ĺ
-    - Ľ
-    - Л
-    - Ł
-  M:
-    - М
-  N:
-    - Ň
-    - Ñ
-    - Н
-    - Ń
-  O:
-    - Ó
-    - Ò
-    - Ô
-    - Õ
-    - Ø
-    - Ö
-    - Ō
-    - О
-    - Œ
-  P:
-    - П
-  Q:
-    - Я
-  R:
-    - Ŕ
-    - Ř
-    - Р
-  S:
-    - Š
-    - С
-    - Ś
-    - Ș
-    - Ş
-  T:
-    - Ť
-    - Т
-    - Ț
-    - Ţ
-  U:
-    - Ú
-    - Ù
-    - Û
-    - Ů
-    - Ü
-    - Ū
-    - У
-  V:
-    - В
-  W:
-    - Щ
-  Y:
-    - Ý
-    - Ы
-  Z:
-    - Ž
-    - З
-    - Ź
-    - Ż
-  :
-    - '"'
-    - ¿
-    - ¡
-    - „
-    - “
-    - ”
+# version 0.1 
+# compiled at Thu Sep 30 16:22:46 UTC 2010
+# 
+# included files:
+#   source/hawaiian.yml
+#   source/polish.yml
+#   source/russian.yml
+#   source/german.yml
+#   source/czech_slovak_slovenian.yml
+#   source/spanish.yml
+#   source/greek.yml
+#   source/turkish.yml
+#   source/french.yml
+#   source/romanian.yml
+#   source/italian.yml
 
-# not replaced
-# - ( ) . / ' & ! , [ _ ] ` – ´ : « » € °
-
-# frensh
-# à â æ ç é è ê ë î ï ô œ ù û ü
-# À Â Æ Ç É È Ê Ë Î Ï Ô Œ Ù Û Ü
-
-# german
-# Ä É Ö Ü
-# ä é ö ü ß
-# „ “ ” °
-
-# hawaiian
-# Ä Ē Ī Ō Ū
-# ä ē ī ō ū
-# ʻ
-
-# polish
-# Ą Ę Ó Ć Ł Ń Ś Ź Ż
-# ą ę ó ć ł ń ś ź ż
-
-# romanian
-# Ă Â Î Ș Ş Ț Ţ
-# ă â î ș ş ț ţ 
-
-# russian
-# [a-wyz]
-# а б ц д е ф г х и й к л м н о п я р с т у в щ   ы з
-# [A-WYZ]
-# А Б Ц Д Е Ф Г Х И Й К Л М Н О П Я Р С Т У В Щ   Ы З
-
-# spanish
-# á é í ñ ó ú ü
-# Á É Í Ñ Ó Ú Ü
-# ¿ ¡
-
-# turkish
-# İ Ö Ü Ç Ğ Ş
-# ı ö ü ç ğ ş
+--- 
+umlaut: 
+  ss: 
+  - "\xC3\x9F"
+  "": 
+  - "\xC2\xAB"
+  - "\xC2\xBB"
+  - "\xE2\x80\x9E"
+  - "\xE2\x80\x9C"
+  - "\xE2\x80\x9D"
+  - "\xC2\xBF"
+  - "\xC2\xA1"
+  L: 
+  - "\xC5\x81"
+  - "\xC4\xB9"
+  l: 
+  - "\xC5\x82"
+  - "\xC4\xBA"
+  A: 
+  - "\xC3\x84"
+  - "\xC4\x84"
+  - "\xC3\x81"
+  - "\xC3\x80"
+  - "\xC3\x82"
+  - "\xC3\x86"
+  - "\xC4\x82"
+  a: 
+  - "\xC3\xA4"
+  - "\xC4\x85"
+  - "\xC3\xA1"
+  - "\xC3\xA0"
+  - "\xC3\xA2"
+  - "\xC3\xA6"
+  - "\xC4\x83"
+  Y: 
+  - "\xC3\x9D"
+  C: 
+  - "\xC4\x86"
+  - "\xC4\x8C"
+  - "\xC3\x87"
+  N: 
+  - "\xC5\x83"
+  - "\xC5\x87"
+  - "\xC3\x91"
+  c: 
+  - "\xC4\x87"
+  - "\xC4\x8D"
+  - "\xC3\xA7"
+  n: 
+  - "\xC5\x84"
+  - "\xC5\x88"
+  - "\xC3\xB1"
+  y: 
+  - "\xCA\xBB"
+  - "\xC3\xBD"
+  d: 
+  - "\xC4\x8F"
+  Z: 
+  - "\xC5\xB9"
+  - "\xC5\xBB"
+  - "\xC5\xBD"
+  z: 
+  - "\xC5\xBA"
+  - "\xC5\xBC"
+  - "\xC5\xBE"
+  O: 
+  - "\xC5\x8C"
+  - "\xC3\x93"
+  - "\xC3\x96"
+  - "\xC3\x94"
+  - "\xC5\x92"
+  - "\xC3\x92"
+  o: 
+  - "\xC5\x8D"
+  - "\xC3\xB3"
+  - "\xC3\xB6"
+  - "\xC3\xB4"
+  - "\xC5\x93"
+  - "\xC3\xB2"
+  E: 
+  - "\xC4\x92"
+  - "\xC4\x98"
+  - "\xC3\x89"
+  - "\xC4\x9A"
+  - "\xC3\x88"
+  - "\xC3\x8A"
+  - "\xC3\x8B"
+  e: 
+  - "\xC4\x93"
+  - "\xC4\x99"
+  - "\xC3\xA9"
+  - "\xC4\x9B"
+  - "\xC3\xA8"
+  - "\xC3\xAA"
+  - "\xC3\xAB"
+  G: 
+  - "\xC4\x9E"
+  g: 
+  - "\xC4\x9F"
+  R: 
+  - "\xC5\x94"
+  - "\xC5\x98"
+  r: 
+  - "\xC5\x95"
+  - "\xC5\x99"
+  S: 
+  - "\xC5\x9A"
+  - "\xC5\xA0"
+  - "\xC5\x9E"
+  - "\xC8\x98"
+  s: 
+  - "\xC5\x9B"
+  - "\xC5\xA1"
+  - "\xC5\x9F"
+  - "\xC8\x99"
+  T: 
+  - "\xC8\x9A"
+  - "\xC5\xA2"
+  t: 
+  - "\xC5\xA5"
+  - "\xC8\x9B"
+  - "\xC5\xA3"
+  I: 
+  - "\xC4\xAA"
+  - "\xC3\x8D"
+  - "\xC4\xB0"
+  - "\xC3\x8E"
+  - "\xC3\x8F"
+  - "\xC3\x8C"
+  i: 
+  - "\xC4\xAB"
+  - "\xC3\xAD"
+  - "\xC4\xB1"
+  - "\xC3\xAE"
+  - "\xC3\xAF"
+  - "\xC3\xAC"
+  U: 
+  - "\xC5\xAA"
+  - "\xC3\x9C"
+  - "\xC3\x9A"
+  - "\xC5\xAE"
+  - "\xC3\x99"
+  - "\xC3\x9B"
+  u: 
+  - "\xC5\xAB"
+  - "\xC3\xBC"
+  - "\xC3\xBA"
+  - "\xC5\xAF"
+  - "\xC3\xB9"
+  - "\xC3\xBB"
