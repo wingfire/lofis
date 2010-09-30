@@ -11,6 +11,11 @@ Syntax
 Example
 -------
 
+Store and Generate
+------------------
+The replacement files are stored in the directory "source". There is one YML file per language.
+The language files are generated to the lofis.yml with the command "rake".
+
 Bugs
 ----
 Report bugs at http://github.com/wingfire/lofis/issues
