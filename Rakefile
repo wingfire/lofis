@@ -1,6 +1,9 @@
 require 'yaml'
 require 'pathname'
 $KCODE = 'UTF8'
+root = Pathname.new(__FILE__).dirname
+
+load root.join('Rakefile.jeweler')
 
 class String
   def to_yaml( opts = {} )
@@ -23,8 +26,6 @@ task :default => :compile
 
 desc 'compile multiple lofis files into one'
 task :compile, :files do |t, args|
-  root = Pathname.new(__FILE__).dirname
-  
   files = if args.files
             Dir[args.files]
           else
@@ -57,7 +58,7 @@ task :compile, :files do |t, args|
 
   puts "writing lofis.yml"
   root.join('lofis.yml').open('w') do |f|
-    f.puts "# #{File.read('VERSION')} "
+    f.puts "# Lofis version #{File.read('VERSION')} "
     f.puts "# compiled at #{Time.now.utc}"
     f.puts "# "
     f.puts "# included files:"
