@@ -9,17 +9,21 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Christof Spies", "Moritz Heidkamp"]
-  s.date = %q{2010-09-30}
+  s.date = %q{2010-10-01}
   s.description = %q{Lofis is a small helper to fix lexicographical order for international sorting.}
   s.email = %q{moritz.heidkamp@bevuta.com}
   s.extra_rdoc_files = [
     "README.markdown"
   ]
   s.files = [
-    "README.markdown",
+    ".document",
+     ".gitignore",
+     "README.markdown",
      "Rakefile",
+     "Rakefile.jeweler",
      "VERSION",
      "lib/lofis.rb",
+     "lofis.gemspec",
      "lofis.yml",
      "source/czech_slovak_slovenian.yml",
      "source/french.yml",
