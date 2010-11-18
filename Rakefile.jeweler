@@ -11,6 +11,7 @@ begin
     gem.homepage = "http://github.com/wingfire/lofis"
     gem.authors = ["Christof Spies", "Moritz Heidkamp"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_development_dependency :yaml_waml
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

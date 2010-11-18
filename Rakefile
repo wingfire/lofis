@@ -1,26 +1,10 @@
 require 'yaml'
 require 'pathname'
+require 'yaml_waml'
 $KCODE = 'UTF8'
 root = Pathname.new(__FILE__).dirname
 
 load root.join('Rakefile.jeweler')
-
-class String
-  def to_yaml( opts = {} )
-    YAML::quick_emit( is_complex_yaml? ? self : nil, opts ) do |out|
-      if to_yaml_properties.empty?
-        out.scalar( taguri, self, self =~ /^:/ ? :quote2 : to_yaml_style )
-      else
-        out.map( taguri, to_yaml_style ) do |map|
-          map.add( 'str', "#{self}" )
-          to_yaml_properties.each do |m|
-            map.add( m, instance_variable_get( m ) )
-          end
-        end
-      end
-    end
-  end
-end
 
 task :default => :compile
 
