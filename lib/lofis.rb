@@ -11,7 +11,7 @@ module Lofis
   end
 
   def self.load_file(file)
-    @mapping = YAML.load_file(file)['umlaut'].map { |r,s| [Regexp.new(s.map { |c| Regexp.escape(c) }.join('|')), r] }
+    @mapping = YAML.load_file(file)['lofis'].map { |r,s| [Regexp.new(s.map { |c| Regexp.escape(c) }.join('|')), r] }
   end
 
   def self.to_sortable(s)

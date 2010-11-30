@@ -23,12 +23,12 @@ task :compile, :files do |t, args|
 
     data = YAML.load_file(file.to_s)
     
-    if !data || !data.is_a?(Hash) || !data['umlaut']
+    if !data || !data.is_a?(Hash) || !data['lofis']
       puts ' - no lofis data found'
       next
     end
 
-    data['umlaut'].each do |k,v|
+    data['lofis'].each do |k,v|
       result[k].concat(v)
     end
 
@@ -53,7 +53,7 @@ task :compile, :files do |t, args|
 
     f.puts
     
-    { 'umlaut' => result }.to_yaml(f)
+    { 'lofis' => result }.to_yaml(f)
   end
   
 end

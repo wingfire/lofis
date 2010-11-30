@@ -4,7 +4,7 @@ Lofis is a small helper to fix lexicographical order for international sorting.
 
 Syntax
 ------
-    umlaut:
+    lofis:
       replacement_string:
         - string_to_replace
 
